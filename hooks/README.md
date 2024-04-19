@@ -15,7 +15,7 @@ Adiciona uma variável de estado ao componente.
 
 
 ## useMemo
-Guarda o valor de uma **variável** evitando que o mesmo seja re-calculado toda vez que o componente for renderizado novamente.
+Guarda o valor de uma **variável** evitando que o mesmo seja re-calculado toda vez que o componente for renderizado novamente (o componente será re-renderizado, porém, o valor não será re-calculado).
 
 **const cachedValue = useMemo(calculateValue, dependencies)**
 
